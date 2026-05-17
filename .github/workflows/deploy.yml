@@ -30,7 +30,7 @@ jobs:
           mkdir build
           cp index.html build/
           cp CNAME build/
-          cp node_modules/particles.js/particles.min.js build/
+          cp node_modules/particles.js/particles.js build/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
